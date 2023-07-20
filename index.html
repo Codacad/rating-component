@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <!-- Rating state start -->
+<div class="rating-component">
+  <div class="img">
+    <img src="./images/icon-star.svg" alt="">
+  </div>  
+  <div class="heading">
+    <h1>How did we do?</h1>
+  </div>
+  <div class="paragraph">
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+  </div>
+
+  <div class="rating-numbers">
+    <a href="#" class="rating-one rn">1</a>
+    <a href="#" class="rating-two rn">2</a>
+    <a href="#" class="rating-three rn">3</a>
+    <a href="#" class="rating-four rn">4</a>
+    <a href="#" class="rating-five rn">5</a>
+  </div>
+
+  <a href="#" class="submit-btn">
+    <span>Submit</span>
+    <!-- <img src="images/pointing arrow.svg" alt=""> -->
+  </a>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <div class="thank-wrapper">
+    <div class="thank-you">
+      <img src="./images/illustration-thank-you.svg" alt="">
+      <h5>You selected <span class="my-rating-number"></span> out of 5</h5>
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+    <div class="close">
+      <img src="images/close.svg" alt="">
+    </div>
+  </div>
+
+  <!-- Thank you state end -->
+
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mohd Rizwan</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
